@@ -1,5 +1,6 @@
 import { MapContainer, Marker, TileLayer, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import L from 'leaflet';
 import data from "../assets/data/data.json";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
@@ -16,6 +17,19 @@ export const Map = () => {
         return mappedData
     }
 
+    // Create custom icon from pictures
+    const findCustomIcon = (customUrl: string) => {
+        const customIcon = L.icon({
+            className: styles.customedIcon,
+            iconUrl: customUrl,
+            iconSize: [50, 50],
+            iconAnchor: [12, 12],
+            popupAnchor: [0, 0],
+        });
+        return customIcon;
+    }
+
+
     return (
     <MapContainer center={[49.6205, 2.9373]} zoom={8} scrollWheelZoom={false}>
       <TileLayer
@@ -23,20 +37,20 @@ export const Map = () => {
         url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       {markers.map((marker: IUser) => (
-        <Marker key={marker.id} position={marker.coordinates}>
+        <Marker icon={findCustomIcon(marker.pictureUrl)} key={marker.id} position={marker.coordinates}>
           <Popup>
             <div>
                 <img src={marker.pictureUrl} alt={`picture of ${marker.firstName} ${marker.lastName}`} className={styles.popImage} />
                 <h4>{marker.firstName} {marker.lastName}</h4>
                 <h5>Stack :</h5>
-                <ul className="language-container">
-                    <li key={marker.id + "front"}>Front : {dataMapping(marker.stack.front)}</li>
-                    <li key={marker.id + "back"}>Back : {dataMapping(marker.stack.back)}</li>
+                <ul className={styles.languageContainer}>
+                    <li className={styles.languages} key={marker.id + "front"}>Front : {dataMapping(marker.stack.front)}</li>
+                    <li className={styles.languages} key={marker.id + "back"}>Back : {dataMapping(marker.stack.back)}</li>
                 </ul>
-                <p key={marker.id + "hobbies"}>Hobbies : {dataMapping(marker.hobbies)}</p>
+                <p className={styles.hobbies} key={marker.id + "hobbies"}>Hobbies : {dataMapping(marker.hobbies)}</p>
                 <div className="social-icons-container">
-                    <a href={marker.linkedIn} target="_blank"><AiFillLinkedin /></a>
-                    <a href={marker.gitHub} target="_blank"><AiFillGithub /></a>
+                    <a className={[styles.icons, styles.linkedInIcon].join(" ")} href={marker.linkedIn} target="_blank"><AiFillLinkedin /></a>
+                    <a className={[styles.icons, styles.gitHubIcon].join(" ")} href={marker.gitHub} target="_blank"><AiFillGithub /></a>
                 </div>
             </div>
           </Popup>
