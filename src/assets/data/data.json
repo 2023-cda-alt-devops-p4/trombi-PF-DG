@@ -3,14 +3,14 @@
     "id": 1,
     "firstName": "Yassine",
     "lastName": "El Azzati",
-    "pictureUrl": "../pictures/yassine.webp",
+    "pictureUrl": "src/assets/pictures/yassine.webp",
     "location": "Arras",
     "coordinates": [50.292996374407686, 2.7761286277224464],
     "stack": {
       "front": ["Angular"],
       "back": ["Java SpringBoot"]
     },
-    "hobbies": "Jeux vidéo/sports de combat/chats (Nala et Jasmine)",
+    "hobbies": ["Jeux vidéo/sports de combat/chats (Nala et Jasmine)"],
     "linkedIn": "https://www.linkedin.com/in/yassine-el-azzati-7b5a331b8/",
     "gitHub": "https://github.com/YassineElazzati"
   },
@@ -18,7 +18,7 @@
     "id": 2,
     "firstName": "Diego ",
     "lastName": "Garcia ",
-    "pictureUrl": "../pictures/diego.webp",
+    "pictureUrl": "src/assets/pictures/diego.webp",
     "location": "Paris",
     "coordinates": [48.84789408194125, 2.3950860475912275],
     "stack": {
@@ -33,7 +33,7 @@
     "id": 3,
     "firstName": "Pierre",
     "lastName": "Fraisse",
-    "pictureUrl": "../pictures/pierre.webp",
+    "pictureUrl": "src/assets/pictures/pierre.webp",
     "location": "Lille (Bois Blancs)",
     "coordinates": [50.62756703698861, 3.0702403188344296],
     "stack": {
@@ -48,7 +48,7 @@
     "id": 4,
     "firstName": "Camille",
     "lastName": "Lafrance ",
-    "pictureUrl": "../pictures/camille.webp",
+    "pictureUrl": "src/assets/pictures/camille.webp",
     "location": "Paris (Montsouris)",
     "coordinates": [48.86957838298227, 2.347020866604488],
     "stack": {
@@ -63,7 +63,7 @@
     "id": 5,
     "firstName": "Jonathan",
     "lastName": "Moreschi",
-    "pictureUrl": "../pictures/jonathan.webp",
+    "pictureUrl": "src/assets/pictures/jonathan.webp",
     "location": "Gretz-Armainvilliers",
     "coordinates": [48.741416937377856, 2.7323971103418496],
     "stack": {
@@ -78,7 +78,7 @@
     "id": 6,
     "firstName": "Théo",
     "lastName": "Pierson",
-    "pictureUrl": "../pictures/theo.webp",
+    "pictureUrl": "src/assets/pictures/theo.webp",
     "location": "Lestrem",
     "coordinates": [50.6166395435858, 2.6831106316589395],
     "stack": {
@@ -93,7 +93,7 @@
     "id": 7,
     "firstName": "Alexandre",
     "lastName": "Foucher",
-    "pictureUrl": "../pictures/alexandre.webp",
+    "pictureUrl": "src/assets/pictures/alexandre.webp",
     "location": "Valenciennes",
     "coordinates": [50.35557742072674, 3.5244958653895053],
     "stack": {
@@ -108,7 +108,7 @@
     "id": 8,
     "firstName": "Audrey",
     "lastName": "Carpentier",
-    "pictureUrl": "../pictures/audrey.webp",
+    "pictureUrl": "src/assets/pictures/audrey.webp",
     "location": "Fitz-James",
     "coordinates": [49.38991020397771, 2.4306699070287228],
     "stack": {
@@ -123,7 +123,7 @@
     "id": 9,
     "firstName": "Mélanie",
     "lastName": "Chauvin",
-    "pictureUrl": "../pictures/melanie.webp",
+    "pictureUrl": "src/assets/pictures/melanie.webp",
     "location": "Lille (Saint-Maurice Pellevoisin",
     "coordinates": [50.645656318942514, 3.086619526650055],
     "stack": {
@@ -138,7 +138,7 @@
     "id": 10,
     "firstName": "Ludovic",
     "lastName": "Phounphonh ",
-    "pictureUrl": "../pictures/ludovic.webp",
+    "pictureUrl": "src/assets/pictures/ludovic.webp",
     "location": "Templemars",
     "coordinates": [50.567680347125936, 3.061470772804757],
     "stack": {
@@ -153,7 +153,7 @@
     "id": 11,
     "firstName": "Marine",
     "lastName": "Beauvois",
-    "pictureUrl": "../pictures/marine.webp",
+    "pictureUrl": "src/assets/pictures/marine.webp",
     "location": "La Madeleine",
     "coordinates": [50.66189091408681, 3.115273194780673],
     "stack": {
@@ -168,7 +168,7 @@
     "id": 12,
     "firstName": "Nassim",
     "lastName": "Deflandre",
-    "pictureUrl": "../pictures/nassim.webp",
+    "pictureUrl": "src/assets/pictures/nassim.webp",
     "location": "Ronchin",
     "coordinates": [50.60422293331001, 3.09254949914395],
     "stack": {
@@ -183,7 +183,7 @@
     "id": 13,
     "firstName": "Thomas",
     "lastName": "Mortelette",
-    "pictureUrl": "../pictures/thomas.webp",
+    "pictureUrl": "src/assets/pictures/thomas.webp",
     "location": "Lille (Vieux Lille)",
     "coordinates": [50.644074649682906, 3.0575959949898595],
     "stack": {
@@ -198,7 +198,7 @@
     "id": 14,
     "firstName": "Zakaria",
     "lastName": "Laskari",
-    "pictureUrl": "../pictures/zakaria.webp",
+    "pictureUrl": "src/assets/pictures/zakaria.webp",
     "location": "Roubaix",
     "coordinates": [50.69306256544878, 3.1784134535149517],
     "stack": {
