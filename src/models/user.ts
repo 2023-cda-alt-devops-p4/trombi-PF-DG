@@ -1,15 +1,17 @@
+import {LatLngExpression} from "leaflet";
+
 export interface IUser {
   id: number;
   firstName: string;
   lastName: string;
   pictureUrl: string;
   location: string;
-  coordinates: number[];
+  coordinates: LatLngExpression;
   stack: {
     front: string[];
     back: string[];
   };
-  hobbies: string;
+  hobbies: string[];
   linkedIn: string;
   gitHub: string;
 }
