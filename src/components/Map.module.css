@@ -1,0 +1,42 @@
+.popImage {
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.customedIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.fullName {
+    font-size: 1.2rem;
+    margin: 0.3rem 0 0.3rem 0;
+}
+
+.languagesContainerTitle {
+    font-size: 1rem;
+}
+
+.languagesContainer {
+    list-style: none;
+    margin-left: 1rem;
+    font-size: .8rem;
+}
+
+.hobbiesTitle {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.socialIconsContainer {
+    display: flex;
+    gap: .5rem;
+}
+
+.icons {
+    font-size: 1.8rem;
+}

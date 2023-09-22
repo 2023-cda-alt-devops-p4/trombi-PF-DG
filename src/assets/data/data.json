@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "firstName": "Yassine",
+    "lastName": "El Azzati",
+    "pictureUrl": "src/assets/pictures/yassine.webp",
+    "location": "Arras",
+    "coordinates": [50.292996374407686, 2.7761286277224464],
+    "stack": {
+      "front": ["Angular"],
+      "back": ["Java SpringBoot"]
+    },
+    "hobbies": ["Jeux vidéo", "Sports de combat", "Chats (Nala et Jasmine)"],
+    "linkedIn": "https://www.linkedin.com/in/yassine-el-azzati-7b5a331b8/",
+    "gitHub": "https://github.com/YassineElazzati"
+  },
+  {
+    "id": 2,
+    "firstName": "Diego ",
+    "lastName": "Garcia ",
+    "pictureUrl": "src/assets/pictures/diego.webp",
+    "location": "Paris",
+    "coordinates": [48.84789408194125, 2.3950860475912275],
+    "stack": {
+      "front": ["React", "TypeScript"],
+      "back": ["NodeJS", ".NET"]
+    },
+    "hobbies": ["Lecture", "Séries (El Chapo)", "Rock latino-américain", "musique régionnale du Nord du mexique"],
+    "linkedIn": "https://www.linkedin.com/in/diego-garciaco/",
+    "gitHub": "https://github.com/dgo-gco"
+  },
+  {
+    "id": 3,
+    "firstName": "Pierre",
+    "lastName": "Fraisse",
+    "pictureUrl": "src/assets/pictures/pierre.webp",
+    "location": "Lille (Bois Blancs)",
+    "coordinates": [50.62756703698861, 3.0702403188344296],
+    "stack": {
+      "front": ["Angular", "React"],
+      "back": [".NET","NodeJS"]
+    },
+    "hobbies": ["Musique", "Cinéma", "Boxes"],
+    "linkedIn": "https://www.linkedin.com/in/pierre-fraisse-83b4b5253/",
+    "gitHub": "https://github.com/PierreFrs"
+  },
+  {
+    "id": 4,
+    "firstName": "Camille",
+    "lastName": "Lafrance ",
+    "pictureUrl": "src/assets/pictures/camille.webp",
+    "location": "Paris (Montsouris)",
+    "coordinates": [48.86957838298227, 2.347020866604488],
+    "stack": {
+      "front": ["SwiftUI", "React", "Angular", "TypeScript"],
+      "back": ["Swift", "Java SpringBoot", "MySQL"]
+    },
+    "hobbies": ["Cinéma", "Nanars", "Podcasts", "Lecture (romans, romans graphiques, essais", "Roller quad", "Jeux de société entre amis", "Son chat Mao", "Balades"],
+    "linkedIn": "https://www.linkedin.com/in/camille-m-lafrance/",
+    "gitHub": "https://github.com/CamilleLafrance/"
+  },
+  {
+    "id": 5,
+    "firstName": "Jonathan",
+    "lastName": "Moreschi",
+    "pictureUrl": "src/assets/pictures/jonathan.webp",
+    "location": "Gretz-Armainvilliers",
+    "coordinates": [48.741416937377856, 2.7323971103418496],
+    "stack": {
+      "front": ["React", "Flutter"],
+      "back": ["NodeJS", "NextJS", "Symfony", "Laravel"]
+    },
+    "hobbies": ["BD", "Manga", "Jeux Vidéos 4x", "Myrmécologie"],
+    "linkedIn": "https://www.linkedin.com/in/jomoreschi/",
+    "gitHub": "https://github.com/Eromnoj"
+  },
+  {
+    "id": 6,
+    "firstName": "Théo",
+    "lastName": "Pierson",
+    "pictureUrl": "src/assets/pictures/theo.webp",
+    "location": "Lestrem",
+    "coordinates": [50.6166395435858, 2.6831106316589395],
+    "stack": {
+      "front": ["React"],
+      "back": ["NextJS"]
+    },
+    "hobbies": ["Lecture", "MMA"],
+    "linkedIn": "https://www.linkedin.com/in/theo-pierson-5bab87216/",
+    "gitHub": "https://github.com/TheoPIERSON"
+  },
+  {
+    "id": 7,
+    "firstName": "Alexandre",
+    "lastName": "Foucher",
+    "pictureUrl": "src/assets/pictures/alexandre.webp",
+    "location": "Valenciennes",
+    "coordinates": [50.35557742072674, 3.5244958653895053],
+    "stack": {
+      "front": ["React"],
+      "back": ["Node", "Java", "PHP", "VB.NET"]
+    },
+    "hobbies": ["Jeux vidéos", "Manga", "Anime", "Musique"],
+    "linkedIn": "https://www.linkedin.com/in/alexandre-foucher-0050571a4/",
+    "gitHub": "https://github.com/AlexTakoDev"
+  },
+  {
+    "id": 8,
+    "firstName": "Audrey",
+    "lastName": "Carpentier",
+    "pictureUrl": "src/assets/pictures/audrey.webp",
+    "location": "Fitz-James",
+    "coordinates": [49.38991020397771, 2.4306699070287228],
+    "stack": {
+      "front": ["React"],
+      "back": ["NodeJS"]
+    },
+    "hobbies": [""],
+    "linkedIn": "https://www.linkedin.com/in/audrey3010/",
+    "gitHub": "https://github.com/AudreyAAOO"
+  },
+  {
+    "id": 9,
+    "firstName": "Mélanie",
+    "lastName": "Chauvin",
+    "pictureUrl": "src/assets/pictures/melanie.webp",
+    "location": "Lille (Saint-Maurice Pellevoisin",
+    "coordinates": [50.645656318942514, 3.086619526650055],
+    "stack": {
+      "front": ["VueJS"],
+      "back": ["Quarkus"]
+    },
+    "hobbies": ["Déguster", "Cuisiner"],
+    "linkedIn": "https://www.linkedin.com/in/melanie-chvn/?originalSubdomain=fr",
+    "gitHub": "https://github.com/Melcn"
+  },
+  {
+    "id": 10,
+    "firstName": "Ludovic",
+    "lastName": "Phounphonh ",
+    "pictureUrl": "src/assets/pictures/ludovic.webp",
+    "location": "Templemars",
+    "coordinates": [50.567680347125936, 3.061470772804757],
+    "stack": {
+      "front": ["React", "React Native"],
+      "back": ["Java SpringBoot"]
+    },
+    "hobbies": ["Cuisiner","Musique", "Bricoler", "Moto"],
+    "linkedIn": "https://www.linkedin.com/in/092155113/",
+    "gitHub": "https://github.com/Ludoph"
+  },
+  {
+    "id": 11,
+    "firstName": "Marine",
+    "lastName": "Beauvois",
+    "pictureUrl": "src/assets/pictures/marine.webp",
+    "location": "La Madeleine",
+    "coordinates": [50.66189091408681, 3.115273194780673],
+    "stack": {
+      "front": ["Ruby on Rails"],
+      "back": ["Ruby", "Cobol"]
+    },
+    "hobbies": ["Son chat", "Son chien", "Sport (Cardio, RPM, BodyPump, Pilates, Yoga, musculation", "Cinéma", "Série (BBC)"],
+    "linkedIn": "https://www.linkedin.com/in/marine-beauvois/",
+    "gitHub": "https://github.com/mbeauvois"
+  },
+{
+    "id": 12,
+    "firstName": "Nassim",
+    "lastName": "Deflandre",
+    "pictureUrl": "src/assets/pictures/nassim.webp",
+    "location": "Ronchin",
+    "coordinates": [50.60422293331001, 3.09254949914395],
+    "stack": {
+      "front": ["React"],
+      "back": ["NextJS", ".NET"]
+    },
+    "hobbies": ["Foot", "Judo", "Série (Vikings, Umbrella Academy,..."],
+    "linkedIn": "https://www.linkedin.com/in/nassim-d-aaa48a204/",
+    "gitHub": "https://github.com/NassJs"
+  },
+  {
+    "id": 13,
+    "firstName": "Thomas",
+    "lastName": "Mortelette",
+    "pictureUrl": "src/assets/pictures/thomas.webp",
+    "location": "Lille (Vieux Lille)",
+    "coordinates": [50.644074649682906, 3.0575959949898595],
+    "stack": {
+      "front": ["React", "Vue", "Angular"],
+      "back": ["Symfony", "ASP.NET Core", "GraphQL"]
+    },
+    "hobbies": ["Séries (Sex Education, Umbrella Academy, The Boyz...", "Cinéma", "Jeux vidéo (Counter Strike 2, Dead by Daylight)", "Développement (Web, Jeux vidéos)"],
+    "linkedIn": "https://www.linkedin.com/in/thomas-mortelette-845318190/",
+    "gitHub": "https://github.com/DKHexDev"
+  },
+  {
+    "id": 14,
+    "firstName": "Zakaria",
+    "lastName": "Laskari",
+    "pictureUrl": "src/assets/pictures/zakaria.webp",
+    "location": "Roubaix",
+    "coordinates": [50.69306256544878, 3.1784134535149517],
+    "stack": {
+      "front": ["React"],
+      "back": ["Symfony"]
+    },
+    "hobbies": ["Street workout", "Foot", "Basket", "Boxe", "Manga", "Anime", "Dragon Ball", "Jeux Vidéo"],
+    "linkedIn": "https://www.linkedin.com/in/zakaria-laskari/",
+    "gitHub": "https://github.com/zakkios"
+  }
+]
