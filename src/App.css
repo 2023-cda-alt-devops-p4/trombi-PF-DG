@@ -2,6 +2,11 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+html {
+    font-size: 10px;
 }
 
 img {

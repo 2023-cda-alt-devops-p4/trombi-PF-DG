@@ -41,16 +41,16 @@ export const Map = () => {
           <Popup>
             <div>
                 <img src={marker.pictureUrl} alt={`picture of ${marker.firstName} ${marker.lastName}`} className={styles.popImage} />
-                <h4>{marker.firstName} {marker.lastName}</h4>
-                <h5>Stack :</h5>
-                <ul className={styles.languageContainer}>
-                    <li className={styles.languages} key={marker.id + "front"}>Front : {dataMapping(marker.stack.front)}</li>
-                    <li className={styles.languages} key={marker.id + "back"}>Back : {dataMapping(marker.stack.back)}</li>
+                <h4  className={styles.fullName}>{marker.firstName} {marker.lastName}</h4>
+                <h5 className={styles.languagesContainerTitle}>Stack :</h5>
+                <ul className={styles.languagesContainer}>
+                    <li className={styles.languages} key={marker.id + "front"}>Frontend : <i>{dataMapping(marker.stack.front)}</i></li>
+                    <li className={styles.languages} key={marker.id + "back"}>Backend : <i>{dataMapping(marker.stack.back)}</i></li>
                 </ul>
-                <p className={styles.hobbies} key={marker.id + "hobbies"}>Hobbies : {dataMapping(marker.hobbies)}</p>
-                <div className="social-icons-container">
+                <p className={styles.hobbies} key={marker.id + "hobbies"}><span className={styles.hobbiesTitle}>Hobbies</span> : {dataMapping(marker.hobbies)}</p>
+                <div className={styles.socialIconsContainer}>
                     <a className={[styles.icons, styles.linkedInIcon].join(" ")} href={marker.linkedIn} target="_blank"><AiFillLinkedin /></a>
-                    <a className={[styles.icons, styles.gitHubIcon].join(" ")} href={marker.gitHub} target="_blank"><AiFillGithub /></a>
+                    <a className={[styles.icons, styles.gitHubIcon].join(" ")} style ={{color: "#171515"}} href={marker.gitHub} target="_blank"><AiFillGithub /></a>
                 </div>
             </div>
           </Popup>
