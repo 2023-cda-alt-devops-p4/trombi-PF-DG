@@ -1,0 +1,26 @@
+.footerContainer {
+    border-top: 0.1rem solid #b5cafe;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.logoFooter {
+    width: 10rem;
+    padding-top: 1rem;
+}
+
+.textFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoPromo {
+    width: 1.7rem;
+    margin: 0 .3rem;
+}

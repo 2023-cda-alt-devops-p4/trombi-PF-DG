@@ -1,9 +1,9 @@
 import { MapContainer, Marker, TileLayer, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
-import data from "../assets/data/data.json";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
+import data from "../assets/data/data.json";
 import styles from "./Map.module.css"
 import {IUser} from "../models/user.ts";
 
@@ -31,7 +31,7 @@ export const Map = () => {
 
 
     return (
-    <MapContainer center={[49.6205, 2.9373]} zoom={8} scrollWheelZoom={false}>
+    <MapContainer center={[49.6205, 2.9373]} zoom={7} scrollWheelZoom={false}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"

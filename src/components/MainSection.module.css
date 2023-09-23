@@ -1,0 +1,11 @@
+.title {
+    font-size: 10rem;
+    padding: 3rem 0 2rem 0;
+}
+
+.presentationText {
+    font-size: 1.3rem;
+    width: 80%;
+    padding-bottom: 4rem;
+    text-align: justify;
+}
