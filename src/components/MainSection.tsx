@@ -14,7 +14,7 @@ export const MainSection = () => {
         région des Hauts de France, nous sommes prêts à repousser les limites du
         développement et à apporter de la fraîcheur à l'écosystème tech.
       </p>
-      <p className={styles.presentationText}>
+      <p className={[styles.presentationText, styles.lastParagraph].join(" ")}>
         Entre la culture cosmopolite de la capitale et la chaleur des Hauts de
         France, la synergie de notre groupe est sans pareil. Que vous soyez à la
         recherche de solutions innovantes ou juste curieux de connaître les
