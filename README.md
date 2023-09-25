@@ -25,3 +25,10 @@ Visit our site:
     "gitHub": "https://github.com/YassineElazzati"
   }
 ```
+
+## What our site looks like:
+![Car Image](/public/mainpage.PNG)
+
+![Car Image](/public/map.PNG)
+
+![Car Image](/public/openmap.PNG)
