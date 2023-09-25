@@ -1,27 +1,34 @@
-# React + TypeScript + Vite
+# SimProm
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Visit our site:
 
-Currently, two official plugins are available:
+- [SimProm website](https://main--celadon-palmier-7d95a3.netlify.app/) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About the project
 
-## Expanding the ESLint configuration
+- how we recover our information:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```json
+    {
+    "id": 1,
+    "firstName": "Yassine",
+    "lastName": "El Azzati",
+    "pictureUrl": "/yassine.webp",
+    "location": "Arras",
+    "coordinates": [50.292996374407686, 2.7761286277224464],
+    "stack": {
+      "front": ["Angular"],
+      "back": ["Java SpringBoot"]
+    },
+    "hobbies": ["Jeux vidéo", "Sports de combat", "Chats (Nala et Jasmine)"],
+    "linkedIn": "https://www.linkedin.com/in/yassine-el-azzati-7b5a331b8/",
+    "gitHub": "https://github.com/YassineElazzati"
+  }
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## What our site looks like:
+![Car Image](/public/mainpage.PNG)
+
+![Car Image](/public/map.PNG)
+
+![Car Image](/public/openmap.PNG)
